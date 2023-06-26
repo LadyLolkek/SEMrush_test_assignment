@@ -98,15 +98,10 @@ Let us say we need to run our ExampleApp on the 8000 port in a container within 
 
    The result should look like this:
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
-   | REPOSITORY | TAG | IMAGE ID | CREATED | SIZE |
-   |:---|:---|:---|:---|:---|
-   | exampleapp | latest | 83wse0edc28a | 2 seconds ago |153MB
-   | python | 3.6 | 05sob8636w3f | 6 weeks ago | 153MB |
+    ```
+    REPOSITORY      TAG         IMAGE ID           CREATED  SIZE 
+    exampleapp      latest      83wse0edc28a       2 seconds ago 153MB
+    python          3.6         05sob8636w3f       6 weeks ago  153MB
+    ```
 
 > Please see the second part of the guide to proceed.
