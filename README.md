@@ -7,7 +7,7 @@ Kubernetes is the container orchestration tool of our choice at Nordlys. If you 
 Let us say we need to run our ExampleApp on the 8000 port in a container within the Kubernetes cluster.
 
 1. Install [Docker](https://docs.docker.com/desktop/) for your OS.
-1. Create new directiories via the command line:
+1. Create new directories via the command line:
 
    > Please remember that unlike on Windows, Linux commands and their options are case sensitive
 
@@ -78,7 +78,7 @@ Let us say we need to run our ExampleApp on the 8000 port in a container within 
 
    ![Image – Dockerfile contents](./dockerfile_contents.png)
 
-   This file will be used as an instrustion for the Docker image.
+   This file will be used as an instruction for the Docker image creation.
 
 1. Run the following script in the terminal:
 
