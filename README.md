@@ -87,8 +87,8 @@ Let us say we need to run our ExampleApp on the 8000 port in a container within 
    where: 
 
    * `.` is your work directory
-   * `-f` docker/application/Dockerfile is the Dockerfile
-   * `-t` exampleapp` is a tag that should make the image easier to find
+   * `-f docker/application/Dockerfile` is the Dockerfile
+   * `-t exampleapp` is a tag that should make the image easier to find
 
 1. Use the following command to see the result:
    
