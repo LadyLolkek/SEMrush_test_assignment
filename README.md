@@ -1,8 +1,6 @@
-# What exactly is Kubernetes?
+# Getting started with Kubernetes
 
 Kubernetes is the container orchestration tool of our choice at Nordlys. If you have never worked with Kubernetes, please follow these simple steps listed below to get started.
-
-# Getting started
 
 Let us say we need to run our ExampleApp on the 8000 port in a container within the Kubernetes cluster.
 
@@ -40,7 +38,7 @@ Let us say we need to run our ExampleApp on the 8000 port in a container within 
    httpd.serve_forever()
    ``` 
 
-1. Set the environment for the application. Since the example application in Python-based, you are going to need at least Python and an OS with all the respective dependencies. You can find it all on [DockerHub](https://hub.docker.com/) by using the pre-existing image.
+1. Set the environment for the application. Since the example application in Python-based, you are going to need at least Python and an OS with all the respective dependencies. You can find it on [DockerHub](https://hub.docker.com/) by using the pre-existing image.
 
    Create a text file named `Dockerfile` into the `quickstart_docker/docker/application` directory and put the following commands into it:
 
@@ -80,7 +78,7 @@ Let us say we need to run our ExampleApp on the 8000 port in a container within 
 
    This file will be used as an instruction for the Docker image creation.
 
-1. Run the following script in the terminal:
+1. Run the following script in the command line:
 
    ```
    docker build . -f -docker/application/Dockerfile -t exampleapp
@@ -90,8 +88,10 @@ Let us say we need to run our ExampleApp on the 8000 port in a container within 
 
    * `.` is your work directory
    * `-f` docker/application/Dockerfile is the Dockerfile
-   * `-t exampleapp` is a tag that should make the image easier to find
+   * `-t` exampleapp` is a tag that should make the image easier to find
 
+1. Use the following command to see the result:
+   
    ```
    $ docker images
    ```
